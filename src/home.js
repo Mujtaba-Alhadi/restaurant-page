@@ -2,8 +2,9 @@ import restaurantImage from "./restaurant-img.jpg";
 
 export function home() {
   const content = document.querySelector("#content");
-
-  const title = document.createElement("h2");
+  content.textContent = "";
+  
+  const title = document.createElement("h1");
   const description = document.createElement("p");
   const image = document.createElement("img");
 
