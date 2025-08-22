@@ -1,1 +1,4 @@
-console.log("Yo Mujtaba")
+import "./style.css";
+import {home} from "./home.js";
+
+home()
